@@ -1,0 +1,7 @@
+
+1. Initiolize a variable called S to zero, N to given number.
+2. If N greater than 0, do the following
+- Find the reminder and store it to R.
+- Increase S by S plus R times R
+- Set N to N divided by 10
+3. Display S
