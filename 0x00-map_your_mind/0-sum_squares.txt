@@ -1,11 +1,8 @@
 Pseudocode to calculate the sum of squares of given input of numbers.
 
-
-1. Start
-2. Set S = 0
-3. Read N
-4. if N > 0
-- Let Reminder R = N % 10
-- S = S + R * R
-- N = N/10
-5. Display S
+1. Initiolize a variable called S to zero, N to given number.
+2. If N greater than 0, do the following
+- Find the reminder and store it to R.
+- Increase S by S plus R times R
+- Set N to N divided by 10
+3. Display S
