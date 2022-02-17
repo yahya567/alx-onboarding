@@ -1,0 +1,7 @@
+Pseudocode to calculate a running sum
+
+1. Get x
+2. Initiolize variable S to zero
+3. While x is greater than or equal to zero, do the following
+- Set S to x plus S
+4. Display S.
