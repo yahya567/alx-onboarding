@@ -1,0 +1,18 @@
+Algorithm to ead in three numbers and writes them all in sorted order
+
+1. Let the N = xyz
+2. If x < y then, 
+* if x < z then,
+** if y < z then,
+*** N = xyz,
+** else
+*** N = xzy,
+* else if y < z then,
+** if x < z then,
+*** N = yxz,
+** else 
+*** N = yzx,
+* else
+** N = zyx,
+
+3. Display N
