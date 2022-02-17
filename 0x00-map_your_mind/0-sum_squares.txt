@@ -1,4 +1,4 @@
-Algorithm to calculate the sum of squares of given input of numbers.
+Pseudocode to calculate the sum of squares of given input of numbers.
 
 
 1. Start
