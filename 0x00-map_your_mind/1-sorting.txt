@@ -1,18 +1,6 @@
-Algorithm to ead in three numbers and writes them all in sorted order
+Pseudocode to read in three numbers and writes them all in sorted order
 
-1. Let the N = xyz
-2. If x < y then, 
-* if x < z then,
-** if y < z then,
-*** N = xyz,
-** else
-*** N = xzy,
-* else if y < z then,
-** if x < z then,
-*** N = yxz,
-** else 
-*** N = yzx,
-* else
-** N = zyx,
-
-3. Display N
+1. Find the smallest number. Swap it with the first number.
+2. Find the second-smallest number. Swap it with the second number.
+3. Find the third-smallest number. Swap it with the third number.
+4. Display the new sort.
